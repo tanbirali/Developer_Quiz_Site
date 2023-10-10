@@ -1586,17 +1586,6 @@ const generalCSQuiz = [
     Explanation:
       "As we have n Nodes we get a Space Complexity of O(n).  The (re-)balancing is not perfect, but guarantees searching in O(log n). The insert and delete operations, along with the tree rearrangement and recoloring, are also performed in O(log n) time",
     Link: "https://en.wikipedia.org/wiki/Red%E2%80%93black_tree"
-  },
-  {
-    Question:
-      "Which of the following algorithms is used in Identifying a circular linked list?",
-    Answer: "Floyd's Tortoise-Hare Algorithm",
-    Distractor1: "Dijkstra's Algorithm",
-    Distractor2: "Greedy Algorithms",
-    Distractor3: "Linear Search Algorithm",
-    Explanation:
-      "Floyd's Tortoise-Hare Algorithm is for finding a circular Linked list. The Hare is a pointer which jumps 2 nodes while the Tortoise moves one node at a time. In case they both meet, we get a circular linked list. If any of them becomes nullptr, then there is no Circular Linked list.",
-    Link: "https://en.wikipedia.org/wiki/Cycle_detection"
   }
 ];
 
